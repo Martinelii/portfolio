@@ -1,8 +1,12 @@
-import React from 'react'
+import Introducao from '../../components/introducao/Introducao'
 
 function Home() {
   return (
-    <div>Home</div>
+    <>
+    <div className='bg-gradient-to-b from-gray-100 to-gray-200'>
+      <Introducao />
+    </div>
+    </>
   )
 }
 
