@@ -1,8 +1,6 @@
-import React from 'react'
-
 function NavBar() {
     return (
-        <div className='flex flex-row items-center justify-between h-16 shadow-md px-4'>
+        <div className='flex flex-row items-center justify-between h-16 shadow-md px-4 sticky top-0 bg-white'>
             <span className='text-2xl font-bold text-gray-900'>KM</span>
             <div className='flex space-x-1 md:space-x-4'>
                 <a href="#about " 
@@ -15,7 +13,7 @@ function NavBar() {
                 <a href=""
                 className='text-gray-700 px-1 md:px-3 py-2 rounded-sm font-medium hover:text-gray-900 hover:bg-gray-200'>
                     Education</a>
-                <a href=""
+                <a href="#project"
                 className='text-gray-700 px-1 md:px-3 py-2 rounded-sm font-medium hover:text-gray-900 hover:bg-gray-200'>
                     Projects</a>
                 <a href=""
