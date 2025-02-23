@@ -18,9 +18,10 @@ export default function Introducao() {
                             Keven Martineli</h1>
                         <p className='text-xl md:text-3xl sm:text-2xl text-gray-600 mb-4'>
                             Desenvolvedor Full Stack</p>
-
-                        <button className="py-3 px-6 cursor-pointer rounded-xl border font-medium bg-gray-900 text-white hover:bg-gray-700">
-                            View My Work</button>
+                        <a href="https://github.com/Martinelii" target="_blank">
+                            <button className="py-3 px-6 cursor-pointer rounded-xl border font-medium bg-gray-900 text-white hover:bg-gray-700">
+                                View My Work</button>
+                        </a>
                     </div>
                 </div>
             </section>
